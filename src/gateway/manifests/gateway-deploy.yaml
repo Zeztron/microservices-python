@@ -15,8 +15,8 @@ spec:
       maxSurge: 3
   template:
     metadata:
-      matchLabels:
-        app: gatewau
+      labels:
+        app: gateway
     spec:
       containers:
         - name: gateway
